@@ -1,4 +1,7 @@
 import { useState } from "react";
+import menuLogo from "../assets/menu.svg"
+import crossLogo from "../assets/cross.svg"
+import logo from "../assets/logo.png"
 
 const Navbar = () => {
 
@@ -19,7 +22,7 @@ const Navbar = () => {
         setIsDropdownOpen(false)
     }
 
-    const menuImgSrc = isMenuOpen ? "/src/assets/cross.svg" : "/src/assets/menu.svg";
+    const menuImgSrc = isMenuOpen ? crossLogo : menuLogo;
     const ariaExpanded = isMenuOpen ? "true" : "false";
     const toggledMenuClass = isMenuOpen ? "" : "-translate-y-full";
 
@@ -35,7 +38,7 @@ const Navbar = () => {
                         aria-label="Page d'accueil du portfolio"
                     >
                         <img
-                            src="/src/assets/logo.png"
+                            src={logo}
                             className="hidden md:w-7 md:inline md:mr-4"
                             alt=""
                         />
