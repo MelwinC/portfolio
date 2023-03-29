@@ -4,7 +4,7 @@ to the examination of the BTS SIO SLAM</h3>
 
 - 💻 I've been learning new stuff elaborating this portfolio : **React / TSX / Tailwind / ViteJS**
 
-- 👨‍💻 All of my projects are available at [https://www.melwinchenu.fr/](melwinchenu.fr)
+- 👨‍💻 All of my projects are available at [melwinchenu.fr](https://www.melwinchenu.fr/)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
