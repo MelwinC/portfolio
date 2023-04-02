@@ -27,10 +27,10 @@ const Navbar = () => {
     const toggledMenuClass = isMenuOpen ? "" : "-translate-y-full";
 
     return (
-        <div className="h-20">
-            <header className="bg-white z-50 fixed top-0 w-full shadow">
+        <div className="h-20 bg-zinc-800">
+            <header className="bg-neutral-200 z-50 fixed top-0 w-full shadow">
                 <nav
-                    className="bg-white max-w-5xl mx-auto font-poppins p-6 flex items-center justify-between"
+                    className="bg-neutral-200  max-w-5xl mx-auto font-poppins p-6 flex items-center justify-between"
                 >
                     <a
                         href="/"
@@ -52,12 +52,12 @@ const Navbar = () => {
                         className="cursor-pointer w-7 md:hidden"
                         onClick={toggleNav}
                     >
-                        <img src={menuImgSrc} alt="" />
+                        <img src={menuImgSrc} alt="" className="text-white" />
                     </button>
                     <ul
                         className={`w-full absolute top-full left-0 ${toggledMenuClass} -z-10
-                        bg-white border-t
-                        text-gray-800 border-b border-gray-200 flex flex-col items-center
+                        bg-neutral-200 border-t
+                        text-black border-b border-neutral-300 flex flex-col items-center
                         md:static md:z-10 md:w-min md:transform-none md:border-none md:flex-row`}
                     >
                         <li className="py-4 md:py-0 md:mr-6">
@@ -85,35 +85,35 @@ const Navbar = () => {
                                     </svg>
                                 </a>
                                 {isDropdownOpen && (
-                                    <ul className="right-0 p-2 bg-white rounded-md shadow items-center md:absolute md:right-auto">
+                                    <ul className="right-0 p-2 bg-neutral-200 rounded-md shadow items-center md:absolute md:right-auto">
                                         <li>
                                             <a
                                                 href="/btssio"
-                                                className="flex p-2 font-medium text-gray-600 rounded-md  hover:bg-gray-100 hover:text-black"
+                                                className="flex p-2 font-medium text-zinc-600 rounded-md  hover:bg-zinc-300 hover:text-black"
                                             >Présentation</a>
                                         </li>
                                         <li>
                                             <a
                                                 href="/competences"
-                                                className="flex p-2 font-medium text-gray-600 rounded-md  hover:bg-gray-100 hover:text-black"
+                                                className="flex p-2 font-medium text-zinc-600 rounded-md  hover:bg-zinc-300 hover:text-black"
                                             >Compétences</a>
                                         </li>
                                         <li>
                                             <a
                                                 href="/projets"
-                                                className="flex p-2 font-medium text-gray-600 rounded-md  hover:bg-gray-100 hover:text-black"
+                                                className="flex p-2 font-medium text-zinc-600 rounded-md  hover:bg-zinc-300 hover:text-black"
                                             >Projets</a>
                                         </li>
                                         <li>
                                             <a
                                                 href="/stage"
-                                                className="flex p-2 font-medium text-gray-600 rounded-md  hover:bg-gray-100 hover:text-black"
+                                                className="flex p-2 font-medium text-zinc-600 rounded-md  hover:bg-zinc-300 hover:text-black"
                                             >Stage</a>
                                         </li>
                                         <li>
                                             <a
                                                 href="/veille"
-                                                className="flex p-2 font-medium text-gray-600 rounded-md  hover:bg-gray-100 hover:text-black"
+                                                className="flex p-2 font-medium text-zinc-600 rounded-md  hover:bg-zinc-300 hover:text-black"
                                             >Veille</a>
                                         </li>
                                     </ul>
