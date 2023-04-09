@@ -1,6 +1,4 @@
 import { useState } from "react";
-import menuLogo from "../assets/menu.svg"
-import crossLogo from "../assets/cross.svg"
 import logo from "../assets/logo.png"
 
 const Navbar = () => {
@@ -22,15 +20,14 @@ const Navbar = () => {
         setIsDropdownOpen(false)
     }
 
-    const menuImgSrc = isMenuOpen ? crossLogo : menuLogo;
     const ariaExpanded = isMenuOpen ? "true" : "false";
     const toggledMenuClass = isMenuOpen ? "" : "-translate-y-full";
 
     return (
-        <div className="h-20 bg-zinc-800">
-            <header className="bg-neutral-200 z-50 fixed top-0 w-full shadow">
+        <div className="h-20">
+            <header className="bg-primary-dark text-secondary-light z-50 fixed top-0 w-full shadow">
                 <nav
-                    className="bg-neutral-200  max-w-5xl mx-auto font-poppins p-6 flex items-center justify-between"
+                    className="bg-primary-dark text-secondary-light mx-auto font-poppins p-6 flex items-center justify-between"
                 >
                     <a
                         href="/"
@@ -42,28 +39,40 @@ const Navbar = () => {
                             className="hidden md:w-7 md:inline md:mr-4"
                             alt=""
                         />
-                        <span aria-hidden="true" className="text-lg lg:text-xl">
-                            Melwin <strong>C<span className="text-blue-900">.</span></strong>
+                        <span aria-hidden="true" className="text-lg lg:text-2xl">
+                            Melwin <strong>C<span className="text-indigo-500">.</span></strong>
                         </span>
                     </a>
                     <button
                         aria-label="toggle button"
                         aria-expanded={ariaExpanded}
-                        className="cursor-pointer w-7 md:hidden"
+                        className="cursor-pointer w-7 md:hidden text-secondary-light"
                         onClick={toggleNav}
                     >
-                        <img src={menuImgSrc} alt="" className="text-white" />
+                        {isMenuOpen ?
+                            <i>
+                                <svg stroke="currentColor" height="32" width="32" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" data-name="Layer 2">
+                                    <path d="m17.854 7.146a.5.5 0 0 0 -.708 0l-4.646 4.647-4.646-4.647a.5.5 0 0 0 -.708.708l4.647 4.646-4.647 4.646a.5.5 0 0 0 .708.708l4.646-4.647 4.646 4.647a.5.5 0 0 0 .708-.708l-4.647-4.646 4.647-4.646a.5.5 0 0 0 0-.708z" />
+                                </svg>
+                            </i>
+                            :
+                            <i>
+                                <svg stroke="currentColor" xmlns="http://www.w3.org/2000/svg" width="32" height="32" className="bi bi-list" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                                </svg>
+                            </i>
+                        }
                     </button>
                     <ul
                         className={`w-full absolute top-full left-0 ${toggledMenuClass} -z-10
-                        bg-neutral-200 border-t
-                        text-black border-b border-neutral-300 flex flex-col items-center
+                        bg-primary-dark
+                        text-secondary-light border-b border-secondary-light flex flex-col items-center
                         md:static md:z-10 md:w-min md:transform-none md:border-none md:flex-row`}
                     >
                         <li className="py-4 md:py-0 md:mr-6">
                             <a
-                                href="/profil"
-                                className="text-sm uppercase font-semibold w-full hover:text-blue-900"
+                                href="/home"
+                                className="text-sm uppercase font-medium w-full hover:text-indigo-300"
                             >
                                 Profil
                             </a>
@@ -71,7 +80,7 @@ const Navbar = () => {
                         {/* <!-- dropdown --> */}
                         <li className="py-4 md:py-0 md:mr-6">
                             <div
-                                className="text-sm uppercase font-semibold w-full hover:text-blue-900 "
+                                className="text-sm uppercase font-medium w-full hover:text-indigo-300 "
                                 onMouseEnter={toggleDropdownOpen}
                                 onMouseLeave={toggleDropdownClose}
                                 onClick={toggleDropdown}
@@ -94,27 +103,15 @@ const Navbar = () => {
                                         </li>
                                         <li>
                                             <a
-                                                href="/competences"
+                                                href="/preuves"
                                                 className="flex p-2 font-medium text-zinc-600 rounded-md  hover:bg-zinc-300 hover:text-black"
-                                            >Compétences</a>
-                                        </li>
-                                        <li>
-                                            <a
-                                                href="/projets"
-                                                className="flex p-2 font-medium text-zinc-600 rounded-md  hover:bg-zinc-300 hover:text-black"
-                                            >Projets</a>
+                                            >Preuves</a>
                                         </li>
                                         <li>
                                             <a
                                                 href="/stage"
                                                 className="flex p-2 font-medium text-zinc-600 rounded-md  hover:bg-zinc-300 hover:text-black"
                                             >Stage</a>
-                                        </li>
-                                        <li>
-                                            <a
-                                                href="/veille"
-                                                className="flex p-2 font-medium text-zinc-600 rounded-md  hover:bg-zinc-300 hover:text-black"
-                                            >Veille</a>
                                         </li>
                                     </ul>
                                 )}
@@ -123,17 +120,24 @@ const Navbar = () => {
                         {/* <!-- dropdown --> */}
                         <li className="py-4 md:py-0 md:mr-6">
                             <a
-                                // TODO link
-                                href="/test"
-                                className="text-sm uppercase font-semibold w-full hover:text-blue-900"
+                                href="/projets"
+                                className="text-sm uppercase font-medium w-full hover:text-indigo-300"
                             >
-                                Test
+                                Projets
+                            </a>
+                        </li>
+                        <li className="py-4 md:py-0 md:mr-6">
+                            <a
+                                href="/veille"
+                                className="text-sm uppercase font-medium w-full hover:text-indigo-300"
+                            >
+                                Veille
                             </a>
                         </li>
                         <li className="py-4 md:py-0 md:mr-6">
                             <a
                                 href="/contact"
-                                className="text-sm uppercase font-semibold w-full hover:text-blue-900"
+                                className="text-sm uppercase font-medium w-full hover:text-indigo-300"
                             >
                                 Contact
                             </a>
