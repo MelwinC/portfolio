@@ -36,7 +36,7 @@ const Navbar = () => {
                     >
                         <img
                             src={logo}
-                            className="hidden md:w-7 md:inline md:mr-4"
+                            className="hidden md:w-9 md:inline md:mr-4 bg-ternary-dark rounded-md p-1"
                             alt=""
                         />
                         <span aria-hidden="true" className="text-lg lg:text-2xl">
