@@ -1,17 +1,16 @@
+import Footer from "../components/Footer"
 import Navbar from "../components/Navbar"
-import ContactForm from '../components/ContactForm';
-import Footer from "../components/Footer";
 
-const Contact = () => {
+const Preuves = () => {
     return (
         <div className="bg-primary-dark font-poppins">
             <Navbar />
             <div className="container mx-auto">
-                <ContactForm />
+                <p>Preuves</p>
             </div>
             <Footer />
-        </div>
+        </div >
     )
 }
 
-export default Contact
+export default Preuves

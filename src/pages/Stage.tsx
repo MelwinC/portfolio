@@ -1,11 +1,15 @@
+import Footer from "../components/Footer"
 import Navbar from "../components/Navbar"
 
 const Stage = () => {
     return (
-        <>
+        <div className="bg-primary-dark font-poppins">
             <Navbar />
-            <h1>Stage PAGE</h1>
-        </>
+            <div className="container mx-auto">
+                <p>Stage</p>
+            </div>
+            <Footer />
+        </div >
     )
 }
 

@@ -71,7 +71,7 @@ const Navbar = () => {
                     >
                         <li className="py-4 md:py-0 md:mr-6">
                             <a
-                                href="/home"
+                                href="/profil"
                                 className="text-sm uppercase font-medium w-full hover:text-indigo-300"
                             >
                                 Profil
@@ -97,7 +97,7 @@ const Navbar = () => {
                                     <ul className="right-0 p-2 bg-neutral-200 rounded-md shadow items-center md:absolute md:right-auto">
                                         <li>
                                             <a
-                                                href="/btssio"
+                                                href="/presentation"
                                                 className="flex p-2 font-medium text-zinc-600 rounded-md  hover:bg-zinc-300 hover:text-black"
                                             >Présentation</a>
                                         </li>
