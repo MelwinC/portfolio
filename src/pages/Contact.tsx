@@ -1,11 +1,16 @@
 import Navbar from "../components/Navbar"
+import ContactForm from '../components/ContactForm';
+import Footer from "../components/Footer";
 
 const Contact = () => {
     return (
-        <>
+        <div className="bg-primary-dark font-poppins">
             <Navbar />
-            <h1>Contact</h1>
-        </>
+            <div className="container mx-auto flex flex-col-reverse lg:flex-row py-5 lg:py-10 lg:mt-10">
+                <ContactForm />
+            </div>
+            <Footer />
+        </div>
     )
 }
 
