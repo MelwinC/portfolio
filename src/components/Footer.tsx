@@ -4,7 +4,7 @@ const Footer = () => {
             <div className="pt-20 sm:pt-30 pb-8 mt-32 border-t-2 border-secondary-dark">
                 <div className="flex flex-col justify-center items-center mb-10">
                     <p className="text-3xl sm:text-4xl text-primary-light mb-5">
-                        Follow me
+                        Suivez-moi
                     </p>
                     <ul className="flex gap-4 sm:gap-8">
                         <a href="https://github.com/MelwinC" target="__blank"
@@ -29,10 +29,12 @@ const Footer = () => {
                 </div>
                 <div className="font-medium flex justify-center items-center text-center">
                     <div className="text-lg text-ternary-light">
-                        © 2023
                         <a href="https://github.com/MelwinC/portfolio" target="__blank" className="hover:underline hover:text-indigo-300 ml-1 duration-300">
                             React(TSX) & Tailwind CSS Portfolio
                         </a>
+                        <p className="text-base">
+                            © 2023 Melwin Chenu. Tous droits réservés.
+                        </p>
                     </div>
                 </div>
             </div>
