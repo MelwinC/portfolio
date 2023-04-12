@@ -6,7 +6,7 @@ const Contact = () => {
     return (
         <div className="bg-primary-dark font-poppins">
             <Navbar />
-            <div className="container mx-auto">
+            <div className="container mx-auto flex flex-col-reverse lg:flex-row py-5 lg:py-10 lg:mt-10">
                 <ContactForm />
             </div>
             <Footer />
