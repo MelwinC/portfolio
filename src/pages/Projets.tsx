@@ -7,7 +7,7 @@ import promedImg from "../assets/promed.png"
 
 const Projets = () => {
     return (
-        <div className="bg-primary-dark font-poppins">
+        <div className="bg-primary-dark font-poppins min-h-screen">
             <Navbar />
             <div className="container mx-auto">
                 <section className="py-5 sm:py-10 mt-14 ">

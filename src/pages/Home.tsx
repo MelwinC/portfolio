@@ -4,7 +4,7 @@ import DeveloperImg from "../assets/developer.png"
 
 const Home = () => {
     return (
-        <div className="bg-primary-dark font-poppins">
+        <div className="bg-primary-dark font-poppins min-h-screen">
             <Navbar />
             <div className="container mx-auto">
                 <section className="flex flex-col sm:justify-between items-center sm:flex-row mt-12 sm:mt-10">
