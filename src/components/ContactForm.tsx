@@ -92,8 +92,8 @@ const ContactForm = () => {
                         </li>
                         <iframe
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d42997.974451999304!2d-2.789650530073699!3d47.657742038438606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48101e84c37de291%3A0xb9f358307b233d13!2sVannes!5e0!3m2!1sfr!2sfr!4v1681334584867!5m2!1sfr!2sfr"
-                            width="600"
-                            height="450"
+                            width="500"
+                            height="350"
                             style={{ border: 0 }}
                             allowFullScreen={undefined}
                             loading="lazy"
