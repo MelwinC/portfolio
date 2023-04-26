@@ -13,7 +13,7 @@ const Home = () => {
                             Melwin C.
                         </h1>
                         <p className="mt-4 text-lg sm:text-xl lg:text-2xl xl:text-3xl text-center sm:text-left leading-normal text-gray-200">
-                            Développeur de logiciels, applications métier & web.
+                            Développeur d'applications métier & web.
                         </p>
                         <div className="flex justify-center sm:block">
                             <a download="CV Melwin CHENU.pdf" href="/src/assets/docs/CV_Melwin_CHENU.pdf"
