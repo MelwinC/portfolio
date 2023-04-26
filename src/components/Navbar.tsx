@@ -1,5 +1,5 @@
 import { useState } from "react";
-import logo from "/mc_logo.png"
+import logo from "../assets/mc_logo.png"
 
 const Navbar = () => {
 
