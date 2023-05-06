@@ -1,10 +1,6 @@
-import Footer from "../components/Footer"
-import Navbar from "../components/Navbar"
-
 const Profil = () => {
     return (
         <div className="bg-primary-dark font-poppins min-h-screen">
-            <Navbar />
             <div className="container mx-auto text-ternary-light">
                 <div className="text-center">
                     <h1 className="text-2xl mt-20 md:text-3xl xl:text-4xl">
@@ -92,7 +88,6 @@ const Profil = () => {
                     </p>
                 </div>
             </div>
-            <Footer />
         </div >
     )
 }
