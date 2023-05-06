@@ -9,11 +9,14 @@ const Projets = () => {
     return (
         <div className="bg-primary-dark font-poppins min-h-screen">
             <Navbar />
-            <div className="container mx-auto">
-                <section className="py-5 sm:py-10 mt-14 ">
+            <div className="container mx-auto text-ternary-light">
+                <section className="py-5 md:py-10 mt-14 ">
                     <div className="text-center">
-                        <p className="font-medium text-2xl sm:text-4xl mb-1 text-ternary-light">
+                        <p className="text-2xl md:text-4xl">
                             Projets
+                        </p>
+                        <p className="text-lg mt-14 text-center">
+                            Voici un échantillon des <span className="text-indigo-300">projets</span> sur lesquels j'ai travaillé <span className="text-indigo-300">cette année</span> sur mon temps libre, en stage et en formation.
                         </p>
                     </div>
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 mt-32 sm:gap-10">
