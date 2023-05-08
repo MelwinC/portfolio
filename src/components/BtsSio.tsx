@@ -11,55 +11,57 @@ const BtsSio = () => {
             </p>
             <div className="grid grid-cols-2 divide-x mt-12">
                 <div>
-                    <ul className="mr-2 lg:ml-10 text-center lg:text-left lg:list-disc">
+                    <ul className="lg:ml-10 text-left lg:text-left list-disc">
                         <h3 className="text-xl font-semibold text-center">Option SLAM <br /> <span className="text-lg">(Solutions Logicielles et Applications Métiers)</span></h3>
-                        <li className="text-sm text-indigo-300 mt-6">
-                            Définir les solutions adaptées en fonction du besoin des utilisateurs<br />(analyse des besoins client interne et étude de l'offre de marché en progiciels)
+                        <li className="text-sm  mt-6 mx-2">
+                            <span className="text-indigo-300">Définir</span> les solutions adaptées en fonction du <span className="text-indigo-300">besoin</span> des <span className="text-indigo-300">utilisateurs</span> (<span className="text-indigo-300">analyse</span> des besoins client interne et <span className="text-indigo-300">étude</span> de l'offre de marché en progiciels)
                         </li>
-                        <li className="text-sm text-indigo-300 mt-2">
-                            Concevoir, produire et maintenir des solutions d'infrastructures réseau ou<br />des solutions applicatives
+                        <li className="text-sm mt-2 mx-2">
+                            <span className="text-indigo-300">Concevoir</span>, <span className="text-indigo-300">produire</span> et <span className="text-indigo-300">maintenir</span> des solutions d'infrastructures <span className="text-indigo-300">réseau</span> ou<br />des solutions <span className="text-indigo-300">applicatives</span>
                         </li>
-                        <li className="text-sm text-indigo-300 mt-2">
-                            Gérer et administrer un parc informatique (matériels et logiciels)
+                        <li className="text-sm mt-2 mx-2">
+                            <span className="text-indigo-300">Gérer</span> et <span className="text-indigo-300">administrer</span> un parc informatique (matériels et logiciels)
                         </li>
-                        <li className="text-sm text-indigo-300 mt-2">
-                            Concevoir, modéliser et administrer des bases de données
+                        <li className="text-sm mt-2 mx-2">
+                            <span className="text-indigo-300">Concevoir</span>, <span className="text-indigo-300">modéliser</span> et <span className="text-indigo-300">administrer</span> des bases de données
                         </li>
-                        <li className="text-sm text-indigo-300 mt-2">
-                            Assurer la maintenance des programmes informatiques.
+                        <li className="text-sm mt-2 mx-2">
+                            <span className="text-indigo-300">Assurer</span> la <span className="text-indigo-300">maintenance</span> des programmes informatiques.
                         </li>
-                        <li className="text-sm text-indigo-300 mt-2">
-                            Rédiger les supports documentaires et assurer la formation des utilisateurs finaux.
+                        <li className="text-sm mt-2 mx-2">
+                            <span className="text-indigo-300">Rédiger</span> les supports documentaires et assurer la <span className="text-indigo-300">formation</span> des <span className="text-indigo-300">utilisateurs</span> finaux.
                         </li>
-                        <li className="text-sm text-indigo-300 mt-2">
-                            Être force de proposition dans l'amélioration et l'optimisation des logiciels<br />en place.
+                        <li className="text-sm mt-2 mx-2">
+                            Être force de proposition dans l'<span className="text-indigo-300">amélioration</span> et l'<span className="text-indigo-300">optimisation</span> des logiciels en place.
                         </li>
                     </ul>
                 </div>
                 <div>
-                    <ul className="ml-2 lg:ml-14 text-center lg:text-left lg:list-disc">
+                    <ul className="lg:ml-14 text-left list-disc">
                         <h3 className="text-xl font-semibold text-center lg:ml-10">Option SISR <br /> <span className="text-lg">(Solutions d'Infrastructures Systèmes et Réseaux)</span></h3>
-                        <li className="text-sm text-indigo-300 mt-6">
-                            Installer, intégrer, administrer, sécuriser des équipements et des services informatiques
-                        </li>
-                        <li className="text-sm text-indigo-300 mt-2">
-                            Exploiter, superviser et assurer la maintenance d'une infrastructure
-                        </li>
-                        <li className="text-sm text-indigo-300 mt-2">
-                            Définir et configurer des postes clients, des serveurs et des équipements d'interconnexion, déploiement et maintenance
-                        </li>
-                        <li className="text-sm text-indigo-300 mt-2">
-                            Gérer les actifs de l'infrastructure
-                        </li>
-                        <li className="text-sm text-indigo-300 mt-2">
-                            Rechercher des réponses adaptées à des besoins d'évolution de l'infrastructure ou à des problèmes liés à la mise à disposition des services informatiques
-                        </li>
-                        <li className="text-sm text-indigo-300 mt-2">
-                            Résoudre des incidents et assister les utilisateurs
-                        </li>
-                        <li className="text-sm text-indigo-300 mt-2">
-                            Maintenir la qualité des services informatiques
-                        </li>
+                        <div className="ml-8">
+                            <li className="text-sm mt-6">
+                                <span className="text-indigo-300">Installer</span>, <span className="text-indigo-300">intégrer</span>, <span className="text-indigo-300">administrer</span>, <span className="text-indigo-300">sécuriser</span> des équipements et des services informatiques
+                            </li>
+                            <li className="text-sm mt-2">
+                                <span className="text-indigo-300">Exploiter</span>, <span className="text-indigo-300">superviser</span> et <span className="text-indigo-300">assurer</span> la maintenance d'une infrastructure
+                            </li>
+                            <li className="text-sm mt-2">
+                                <span className="text-indigo-300">Définir</span> et <span className="text-indigo-300">configurer</span> des postes clients, des serveurs et des équipements d'interconnexion, déploiement et maintenance
+                            </li>
+                            <li className="text-sm mt-2">
+                                <span className="text-indigo-300">Gérer</span> les actifs de l'infrastructure
+                            </li>
+                            <li className="text-sm mt-2">
+                                <span className="text-indigo-300">Rechercher</span> des réponses adaptées à des besoins d'évolution de l'infrastructure ou à des problèmes liés à la mise à disposition des services informatiques
+                            </li>
+                            <li className="text-sm mt-2">
+                                <span className="text-indigo-300">Résoudre </span>des incidents et <span className="text-indigo-300">assister</span> les utilisateurs
+                            </li>
+                            <li className="text-sm mt-2">
+                                <span className="text-indigo-300">Maintenir</span> la qualité des services informatiques
+                            </li>
+                        </div>
                     </ul>
                 </div>
             </div>
@@ -68,46 +70,48 @@ const BtsSio = () => {
             </h1>
             <div className="grid grid-cols-2 divide-x mt-12">
                 <div>
-                    <ul className="mr-2 lg:ml-10 text-center lg:text-left lg:list-disc">
+                    <ul className="lg:ml-10 text-left list-disc">
                         <h3 className="text-xl font-semibold text-center">Option SLAM <br /> <span className="text-lg">(Solutions Logicielles et Applications Métiers)</span></h3>
-                        <li className="text-sm text-indigo-300 mt-6 ml-4">
+                        <li className="text-sm mt-6 ml-4">
                             <li>Développeur-euse informatique.</li>
                         </li>
-                        <li className="text-sm text-indigo-300 mt-2 ml-4">
-                            <li>Programmation de logiciel d'entreprise ou/et</li>
+                        <li className="text-sm mt-2 ml-4">
+                            <li>Programmation de <span className="text-indigo-300">logiciel d'entreprise</span></li>
                         </li>
-                        <li className="text-sm text-indigo-300 mt-2 ml-4">
-                            <li>Développement d'application web/mobile.</li>
+                        <li className="text-sm mt-2 ml-4">
+                            <li>Développement d'<span className="text-indigo-300">application web/mobile</span>.</li>
                         </li>
-                        <li className="text-sm text-indigo-300 mt-2 ml-4">
-                            <li>Développeur-euse web back-end / front-end.</li>
+                        <li className="text-sm mt-2 ml-4">
+                            <li>Développeur-euse <span className="text-indigo-300">web back-end / front-end</span>.</li>
                         </li>
-                        <li className="text-sm text-indigo-300 mt-2 ml-4">
-                            <li>Développeur-euse DevOps.</li>
+                        <li className="text-sm mt-2 ml-4">
+                            <li>Développeur-euse <span className="text-indigo-300">DevOps</span>.</li>
                         </li>
                     </ul>
                 </div>
                 <div>
-                    <ul className="ml-2 lg:ml-14 text-center lg:text-left lg:list-disc">
+                    <ul className="lg:ml-14 text-left list-disc">
                         <h3 className="text-xl font-semibold text-center lg:ml-10">Option SISR <br /> <span className="text-lg">(Solutions d'Infrastructures Systèmes et Réseaux)</span></h3>
-                        <li className="text-sm text-indigo-300 mt-6">
-                            <li>Dirigeant-e / Responsable des services applicatifs.</li>
-                        </li>
-                        <li className="text-sm text-indigo-300 mt-2">
-                            <li>Technicien-ne des Systèmes d'Information.</li>
-                        </li>
-                        <li className="text-sm text-indigo-300 mt-2">
-                            <li>Administrateur-rice / maintenance de parc informatique.</li>
-                        </li>
-                        <li className="text-sm text-indigo-300 mt-2">
-                            <li>Webmaster / Administrateur/trice serveur (front et back-end).</li>
-                        </li>
-                        <li className="text-sm text-indigo-300 mt-2">
-                            <li>Développement de solutions informatiques sécurisées.</li>
-                        </li>
-                        <li className="text-sm text-indigo-300 mt-2">
-                            <li>Administrateur-rice / Analyste de solutions de sécurité.</li>
-                        </li>
+                        <div className="ml-8">
+                            <li className="text-sm mt-6">
+                                <li><span className="text-indigo-300">Dirigeant-e</span> / <span className="text-indigo-300">Responsable</span> des services applicatifs.</li>
+                            </li>
+                            <li className="text-sm mt-2">
+                                <li><span className="text-indigo-300">Technicien-ne</span> des Systèmes d'Information.</li>
+                            </li>
+                            <li className="text-sm mt-2">
+                                <li><span className="text-indigo-300">Administrateur-rice</span> / maintenance de parc informatique.</li>
+                            </li>
+                            <li className="text-sm mt-2">
+                                <li><span className="text-indigo-300">Webmaster</span> / <span className="text-indigo-300">Administrateur/trice</span> serveur (front et back-end).</li>
+                            </li>
+                            <li className="text-sm mt-2">
+                                <li><span className="text-indigo-300">Développement</span> de solutions informatiques sécurisées.</li>
+                            </li>
+                            <li className="text-sm mt-2">
+                                <li><span className="text-indigo-300">Administrateur-rice</span> / <span className="text-indigo-300">Analyste</span> de solutions de sécurité.</li>
+                            </li>
+                        </div>
                     </ul>
                 </div>
             </div>

@@ -7,7 +7,7 @@ const Profil = () => {
                         Qui suis-je ?
                     </h1>
                     <p className="text-sm mt-14 md:text-lg">
-                        Je m'appelle <span className="text-indigo-300">Melwin Chenu</span>, j'ai 23 ans, et j'ai fais le choix de devenir <span className="text-indigo-300">développeur</span>, c'est pourquoi je suis actuellement en BTS SIO SLAM.
+                        Je m'appelle <span className="text-indigo-300">Melwin Chenu</span>, j'ai 23 ans, et j'ai fait le choix de devenir <span className="text-indigo-300">développeur</span>, c'est pourquoi je suis actuellement en BTS SIO SLAM.
                     </p>
                 </div>
                 <div className="mt-20">
