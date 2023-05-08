@@ -62,7 +62,7 @@ const VeilleC = () => {
                         <p className="mt-14">
                             Pour créer mon application web j'ai utilisé l'outil <span className="text-indigo-300">CRA</span> (Create React App)
                             qui permet de créer le squelette du code et d'apporter des outils comme Webpack Babel ESLint pour optimiser l'expérience de développement. <br />
-                            Mais en effectuant ma veille technologique j'ai appris l'existance de <span className="text-indigo-300">ViteJS</span>,
+                            Mais en effectuant ma veille technologique j'ai appris l'existence de <span className="text-indigo-300">ViteJS</span>,
                             un outil plus récent et bien plus <span className="text-indigo-300">performant</span>.
                         </p>
                         <p className="mt-14">
