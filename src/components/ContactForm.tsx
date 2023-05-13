@@ -1,12 +1,28 @@
+import emailjs, { EmailJSResponseStatus } from 'emailjs-com';
 import FormInput from './FormInput';
 
 const ContactForm = () => {
+
+    const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
+        e.preventDefault();
+        emailjs.sendForm(
+            import.meta.env.VITE_MAIL_JS_SERVICE_ID,
+            import.meta.env.VITE_MAIL_JS_TEMPLATE_ID,
+            e.currentTarget,
+            import.meta.env.VITE_MAIL_JS_PUBLIC_KEY
+        ).then((result: EmailJSResponseStatus) => {
+            console.log(result.text);
+        }, (error) => {
+            console.log(error.text);
+        });
+        e.currentTarget.reset()
+    };
 
     return (
         <>
             <div className="w-full leading-loose">
                 <form
-                    onSubmit={(e) => e.preventDefault}
+                    onSubmit={sendEmail}
                     className="max-w-xl m-4 p-6 sm:p-10 bg-secondary-dark rounded-xl shadow-xl text-left"
                 >
                     <p className="text-primary-light text-2xl mb-8">

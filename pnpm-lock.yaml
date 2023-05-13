@@ -5,6 +5,7 @@ specifiers:
   '@types/react-dom': ^18.0.11
   '@vitejs/plugin-react-swc': ^3.0.0
   autoprefixer: ^10.4.14
+  emailjs-com: ^3.2.0
   postcss: ^8.4.21
   react: ^18.2.0
   react-dom: ^18.2.0
@@ -14,6 +15,7 @@ specifiers:
   vite: ^4.2.0
 
 dependencies:
+  emailjs-com: 3.2.0
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   react-router-dom: 6.9.0_biqbaboplfbrettd7655fr4n2y
@@ -525,6 +527,12 @@ packages:
   /electron-to-chromium/1.4.340:
     resolution: {integrity: sha512-zx8hqumOqltKsv/MF50yvdAlPF9S/4PXbyfzJS6ZGhbddGkRegdwImmfSVqCkEziYzrIGZ/TlrzBND4FysfkDg==}
     dev: true
+
+  /emailjs-com/3.2.0:
+    resolution: {integrity: sha512-Prbz3E1usiAwGjMNYRv6EsJ5c373cX7/AGnZQwOfrpNJrygQJ15+E9OOq4pU8yC977Z5xMetRfc3WmDX6RcjAA==}
+    engines: {node: '>=12.0.0'}
+    deprecated: The SDK name changed to @emailjs/browser
+    dev: false
 
   /esbuild/0.17.12:
     resolution: {integrity: sha512-bX/zHl7Gn2CpQwcMtRogTTBf9l1nl+H6R8nUbjk+RuKqAE3+8FDulLA+pHvX7aA7Xe07Iwa+CWvy9I8Y2qqPKQ==}
