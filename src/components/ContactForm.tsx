@@ -108,12 +108,8 @@ const ContactForm = () => {
                         </li>
                     </ul>
                     <iframe
-                        className='md:w-1/2 h-72 mt-5 mx-auto'
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d42997.974451999304!2d-2.789650530073699!3d47.657742038438606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48101e84c37de291%3A0xb9f358307b233d13!2sVannes!5e0!3m2!1sfr!2sfr!4v1681334584867!5m2!1sfr!2sfr"
-                        style={{ border: 0 }}
-                        allowFullScreen={undefined}
-                        loading="lazy"
-                        referrerPolicy="no-referrer-when-downgrade">
+                        className='mx-auto w-full h-72 md:w-1/2'
+                        src="https://www.openstreetmap.org/export/embed.html?bbox=-2.83224105834961%2C47.622190306287365%2C-2.71388053894043%2C47.693183419547196&amp;layer=mapnik">
                     </iframe>
                 </div >
             </div >
