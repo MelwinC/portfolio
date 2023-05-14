@@ -71,10 +71,18 @@ const Navbar = () => {
                     >
                         <li className="py-4 md:py-0 md:mr-6">
                             <a
-                                href="/profil"
+                                href="/projets"
                                 className="text-sm uppercase font-medium w-full hover:text-indigo-300"
                             >
-                                Profil
+                                Projets
+                            </a>
+                        </li>
+                        <li className="py-4 md:py-0 md:mr-6">
+                            <a
+                                href="/veille"
+                                className="text-sm uppercase font-medium w-full hover:text-indigo-300"
+                            >
+                                Veille
                             </a>
                         </li>
                         {/* <!-- dropdown --> */}
@@ -89,7 +97,7 @@ const Navbar = () => {
                                     className="flex m-auto items-center justify-center hover:cursor-pointer"
                                 >
                                     Formation
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor" className="ml-1 text-indigo-500" viewBox="0 0 16 16">
                                         <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
                                     </svg>
                                 </a>
@@ -120,26 +128,10 @@ const Navbar = () => {
                         {/* <!-- dropdown --> */}
                         <li className="py-4 md:py-0 md:mr-6">
                             <a
-                                href="/projets"
-                                className="text-sm uppercase font-medium w-full hover:text-indigo-300"
-                            >
-                                Projets
-                            </a>
-                        </li>
-                        <li className="py-4 md:py-0 md:mr-6">
-                            <a
-                                href="/veille"
-                                className="text-sm uppercase font-medium w-full hover:text-indigo-300"
-                            >
-                                Veille
-                            </a>
-                        </li>
-                        <li className="py-4 md:py-0 md:mr-6">
-                            <a
                                 href="/contact"
                                 className="text-sm uppercase font-medium w-full hover:text-indigo-300"
                             >
-                                Contact
+                                Me contacter
                             </a>
                         </li>
 

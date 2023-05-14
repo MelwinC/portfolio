@@ -31,11 +31,11 @@ const StageC = () => {
                 </h1>
                 <p className="mt-14">
                     Pendant ce stage, j'ai eu majoritairement 2 missions :
-                    <ul className="list-disc text-indigo-300 ml-20 mt-4">
-                        <li>Retro-engineering PHP</li>
-                        <li>Développement d'application web React (+ documentations)</li>
-                    </ul>
                 </p>
+                <ul className="list-disc text-indigo-300 ml-20 mt-4">
+                    <li>Retro-engineering PHP</li>
+                    <li>Développement d'application web React (+ documentations)</li>
+                </ul>
             </div>
             <div>
                 <h1 className="text-2xl text-center md:text-3xl xl:text-4xl mt-10 md:mt-20">
@@ -61,7 +61,7 @@ const StageC = () => {
                     <li className="ml-20 mt-2">Firebase (auth, firestore, host)</li>
                     <li className="ml-20 mt-2">ViteJS</li>
                 </ul>
-                <img src={jaugestemps} alt="Application Jauges Temps" className="mx-auto w-1/3 mt-10" />
+                <img src={jaugestemps} alt="Application Jauges Temps" className="mx-auto w-1/3 mt-10 rounded-xl shadow-md shadow-indigo-400" />
             </div>
             <div>
                 <h1 className="text-2xl text-center md:text-3xl xl:text-4xl mt-10 md:mt-20">
@@ -80,8 +80,8 @@ const StageC = () => {
                     <li className="ml-20 mt-2">ViteJS</li>
                     <li className="ml-20 mt-2">EmailJS</li>
                 </ul>
-                <img src={petsitter} alt="Application Pet Sitter" className="mx-auto mt-10 w-1/2" />
-                <img src={petsitter2} alt="Application Pet Sitter" className="mx-auto mt-20 w-1/4" />
+                <img src={petsitter} alt="Application Pet Sitter" className="mx-auto mt-10 w-1/2 rounded-xl" />
+                <img src={petsitter2} alt="Application Pet Sitter" className="mx-auto mt-20 w-1/4 rounded-xl" />
             </div>
             <div>
                 <h1 className="text-2xl text-center md:text-3xl xl:text-4xl mt-10 md:mt-20">

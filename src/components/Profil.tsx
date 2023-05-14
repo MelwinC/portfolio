@@ -1,4 +1,5 @@
 import TimelineParcoursPro from "../assets/TimelineParcoursPro.png"
+import reactOCR from "../assets/reactOCR.png"
 
 const Profil = () => {
     return (
@@ -22,7 +23,7 @@ const Profil = () => {
                         Cette option fût mon entrée dans le monde du <span className="text-indigo-300">développement</span>.<br />
                         J'ai débuté avec l'<span className="text-indigo-300">HTML5</span>, le <span className="text-indigo-300">CSS3</span> et le <span className="text-indigo-300">JS</span>.
                     </p>
-                    <img src={TimelineParcoursPro} alt="Schéma parcours professionnel" className="mt-20 mx-auto w-5/6" />
+                    <img src={TimelineParcoursPro} alt="Schéma parcours professionnel" className="mt-20 mx-auto w-5/6 shadow-md shadow-indigo-400 rounded-2xl" />
                 </div>
 
                 <div className="mt-20">
@@ -70,8 +71,8 @@ const Profil = () => {
                     <p className="text-sm mt-14 md:text-lg">
                         À court terme, j'envisage de poursuivre les études vers un diplôme de niveau 6 dans le <span className="text-indigo-300">développement WEB</span><br />
                         Je suis tout particulièrement intéressé par la technologie <span className="text-indigo-300">ReactJS</span>.<br />
-                        <img src="" alt="" />
                         À moyen, long terme je m'imagine compléter mes compétences avec l'apprentissage de <span className="text-indigo-300">NodeJS</span> afin de devenir un <span className="text-indigo-300">développeur Full Stack</span>.
+                        <img src={reactOCR} alt="Formation React OpenClassRooms" className="mx-auto mt-8 rounded-lg shadow-md shadow-indigo-400" />
                     </p>
                 </div>
             </div>

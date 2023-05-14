@@ -73,24 +73,26 @@ const VeilleC = () => {
                         </p>
                     </div>
                 </div>
-                <div className="my-10 mx-auto w-3/4 md:w-1/2">
-                    <img src={CRA} alt="Schéma du fonctionnement de Create React App" />
-                    <caption className="w-72 h-full text-left"><i>Schéma CRA <br /> (source : <a className="underline" href="https://vitejs.dev/guide/why.html" target="_blank">documentation ViteJS</a>)</i></caption>
+                <div className="md:grid md:grid-cols-2 md:gap-20">
+                    <div className="w-11/12 md:w-full mx-auto my-14">
+                        <img src={CRA} alt="Schéma du fonctionnement de Create React App" className="rounded-xl shadow-md shadow-indigo-400" />
+                        <caption className="w-72 mt-4 h-full text-left"><i>Schéma CRA <br /> (source : <a className="underline" href="https://vitejs.dev/guide/why.html" target="_blank">documentation ViteJS</a>)</i></caption>
+                    </div>
+                    <div className="w-11/12 md:w-full mx-auto my-14">
+                        <img src={Vite} alt="Schéma du fonctionnement de Vite" className="rounded-xl shadow-md shadow-indigo-400" />
+                        <caption className="w-72 mt-4 h-full text-left"><i>Schéma Vite <br /> (source : <a className="underline" href="https://vitejs.dev/guide/why.html" target="_blank">documentation ViteJS</a>)</i></caption>
+                    </div>
                 </div>
-                <div className="my-10 mx-auto w-3/4 md:w-1/2">
-                    <img src={Vite} alt="Schéma du fonctionnement de Vite" />
-                    <caption className="w-72 h-full text-left"><i>Schéma Vite <br /> (source : <a className="underline" href="https://vitejs.dev/guide/why.html" target="_blank">documentation ViteJS</a>)</i></caption>
-                </div>
-                <p className="text-sm mt-14 text-center md:text-lg">
+                <p className="text-sm text-center md:text-lg">
                     Voici une <span className="text-indigo-300">démonstration</span> d'un projet de stage que j'ai <span className="text-indigo-300">migré</span> de Create React App vers ViteJS.
                     <br />
                     CRA importe bien plus de modules à l'<span className="text-indigo-300">initialisation</span>.
                     <br />
                     Le poids du projet a presque été divisé par <span className="text-indigo-300">10</span>.
                 </p>
-                <div className="my-10 mx-auto w-3/4 md:w-1/2">
-                    <img src={CRAvsVite} alt="CRA vs Vite (poids)" />
-                    <caption className="w-52 text-left"><i>CRA vs Vite</i></caption>
+                <div className="mt-14 mx-auto w-11/12 md:w-1/2">
+                    <img src={CRAvsVite} alt="CRA vs Vite (poids)" className="rounded-xl shadow-md shadow-indigo-400" />
+                    <caption className="w-52 mt-4 text-left"><i>CRA vs Vite</i></caption>
                 </div>
             </div>
         </div>
