@@ -74,14 +74,14 @@ const VeilleC = () => {
                     </div>
                 </div>
                 <div className="md:grid md:grid-cols-2 md:gap-20">
-                    <div className="w-11/12 md:w-full mx-auto my-14">
+                    <figure className="w-11/12 md:w-full mx-auto my-14">
                         <img src={CRA} alt="Schéma du fonctionnement de Create React App" className="rounded-xl shadow-md shadow-indigo-400" />
-                        <caption className="w-72 mt-4 h-full text-left"><i>Schéma CRA <br /> (source : <a className="underline" href="https://vitejs.dev/guide/why.html" target="_blank">documentation ViteJS</a>)</i></caption>
-                    </div>
-                    <div className="w-11/12 md:w-full mx-auto my-14">
+                        <figcaption className="w-72 mt-4 h-full text-left"><i>Schéma CRA <br /> (source : <a className="underline" href="https://vitejs.dev/guide/why.html" target="_blank">documentation ViteJS</a>)</i></figcaption>
+                    </figure>
+                    <figure className="w-11/12 md:w-full mx-auto my-14">
                         <img src={Vite} alt="Schéma du fonctionnement de Vite" className="rounded-xl shadow-md shadow-indigo-400" />
-                        <caption className="w-72 mt-4 h-full text-left"><i>Schéma Vite <br /> (source : <a className="underline" href="https://vitejs.dev/guide/why.html" target="_blank">documentation ViteJS</a>)</i></caption>
-                    </div>
+                        <figcaption className="w-72 mt-4 h-full text-left"><i>Schéma Vite <br /> (source : <a className="underline" href="https://vitejs.dev/guide/why.html" target="_blank">documentation ViteJS</a>)</i></figcaption>
+                    </figure>
                 </div>
                 <p className="text-sm text-center md:text-lg">
                     Voici une <span className="text-indigo-300">démonstration</span> d'un projet de stage que j'ai <span className="text-indigo-300">migré</span> de Create React App vers ViteJS.
@@ -90,10 +90,10 @@ const VeilleC = () => {
                     <br />
                     Le poids du projet a presque été divisé par <span className="text-indigo-300">10</span>.
                 </p>
-                <div className="mt-14 mx-auto w-11/12 md:w-1/2">
+                <figure className="mt-14 mx-auto w-11/12 md:w-1/2">
                     <img src={CRAvsVite} alt="CRA vs Vite (poids)" className="rounded-xl shadow-md shadow-indigo-400" />
-                    <caption className="w-52 mt-4 text-left"><i>CRA vs Vite</i></caption>
-                </div>
+                    <figcaption className="w-52 mt-4 text-left"><i>CRA vs Vite</i></figcaption>
+                </figure>
             </div>
         </div>
     )

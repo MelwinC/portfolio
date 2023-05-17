@@ -27,7 +27,7 @@ const Footer = () => {
                         </a>
                     </ul>
                 </div>
-                <div className="font-medium flex justify-center items-center text-center">
+                <div className="font-medium flex justify-center text-center">
                     <div className="text-lg text-ternary-light">
                         <a href="https://github.com/MelwinC/portfolio" target="__blank" className="hover:underline hover:text-indigo-300 duration-300">
                             React(TSX) & Tailwind CSS Portfolio
