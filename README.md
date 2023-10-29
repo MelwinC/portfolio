@@ -1,7 +1,7 @@
 # Hi 👋, I'm Melwin Chenu
 Here is my portfolio, you'll find everything you need to know about me !
 
-- 💻 I've been using the followings technologies elaborating this portfolio : **React / TSX / Tailwind / ViteJS**
+- 💻 I've been using the following technologies elaborating this portfolio : **React / TSX / Tailwind / ViteJS**
 
 - 👨‍💻 All of my projects are available at [melwinchenu.fr](https://www.melwinchenu.fr/)
 
