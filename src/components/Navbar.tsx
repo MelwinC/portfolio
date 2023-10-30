@@ -8,6 +8,7 @@ const Navbar = () => {
   const toggleNav = () => {
     setIsMenuOpen(!isMenuOpen);
   };
+
   const toggleDropdown = () => {
     setIsDropdownOpen(!isDropdownOpen);
   };
@@ -101,7 +102,7 @@ const Navbar = () => {
             {/* <!-- dropdown --> */}
             <li className="py-4 md:py-0 md:mr-6">
               <div
-                className="text-sm uppercase font-medium w-full hover:text-indigo-300 mt-[2px]"
+                className="text-sm uppercase font-medium w-full hover:text-indigo-300"
                 onMouseEnter={toggleDropdownOpen}
                 onMouseLeave={toggleDropdownClose}
                 onClick={toggleDropdown}
