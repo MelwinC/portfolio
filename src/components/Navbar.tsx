@@ -24,8 +24,8 @@ const Navbar = () => {
   const toggledMenuClass = isMenuOpen ? "" : "-translate-y-full";
 
   return (
-    <div className="h-20">
-      <header className="bg-primary-dark text-secondary-light z-50 fixed top-0 w-full shadow">
+    <header className="h-20">
+      <div className="bg-primary-dark text-secondary-light z-50 fixed top-0 w-full shadow">
         <nav className="bg-primary-dark text-secondary-light mx-auto font-poppins p-6 flex items-center justify-between">
           <a href="/" className="flex" aria-label="Page d'accueil du portfolio">
             <img
@@ -153,8 +153,8 @@ const Navbar = () => {
             </li>
           </ul>
         </nav>
-      </header>
-    </div>
+      </div>
+    </header>
   );
 };
 export default Navbar;

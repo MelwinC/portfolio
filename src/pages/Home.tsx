@@ -7,8 +7,10 @@ const Home = () => {
     return (
         <div className="bg-primary-dark font-poppins min-h-screen">
             <Navbar />
-            <Accueil />
-            <Profil />
+            <main>
+                <Accueil />
+                <Profil />
+            </main>
             <Footer />
         </div >
     )

@@ -2,7 +2,7 @@ import DeveloperImg from "../assets/developer.png";
 
 const Accueil = () => {
   return (
-    <div className="container mx-auto border-b-2 border-secondary-dark">
+    <section className="container mx-auto border-b-2 border-secondary-dark">
       <section className="flex flex-col sm:justify-between items-center sm:flex-row mt-12 sm:mt-10">
         <div className="w-full sm:w-1/3 text-left">
           <h1 className="font-semibold text-2xl lg:text-3xl xl:text-4xl text-center sm:text-left text-primary-light uppercase">
@@ -44,7 +44,7 @@ const Accueil = () => {
           <img src={DeveloperImg} alt="developer" className="mx-auto" />
         </div>
       </section>
-    </div>
+    </section>
   );
 };
 

@@ -6,7 +6,7 @@ import piscineImg from "../assets/piscine.png";
 
 const ProjetsC = () => {
   return (
-    <div className="container mx-auto text-ternary-light">
+    <main className="container mx-auto text-ternary-light">
       <section className="py-5 md:py-10 mt-14 ">
         <div className="text-center">
           <p className="text-2xl md:text-4xl">Projets</p>
@@ -14,8 +14,8 @@ const ProjetsC = () => {
             Voici un échantillon des <span className="text-indigo-300">projets</span> sur lesquels j'ai travaillé <span className="text-indigo-300">cette année</span> sur mon temps libre, en stage et en formation.
           </p>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-32 sm:gap-20">
-          <div>
+        <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-32 sm:gap-20">
+          <article>
             <a
               aria-label="Projet"
               href="https://melwinchenu.fr/"
@@ -43,8 +43,8 @@ const ProjetsC = () => {
                 </div>
               </div>
             </a>
-          </div>
-          <div>
+          </article>
+          <article>
             <a
               aria-label="Projet"
               href="https://pet-sitter-ea7df.web.app/"
@@ -72,8 +72,8 @@ const ProjetsC = () => {
                 </div>
               </div>
             </a>
-          </div>
-          <div>
+          </article>
+          <article>
             <a
               aria-label="Projet"
               href="https://jauges-temps.web.app/private"
@@ -101,8 +101,8 @@ const ProjetsC = () => {
                 </div>
               </div>
             </a>
-          </div>
-          <div>
+          </article>
+          <article>
             <a
               aria-label="Projet"
               href="https://github.com/MelwinC/projet_Web"
@@ -130,8 +130,8 @@ const ProjetsC = () => {
                 </div>
               </div>
             </a>
-          </div>
-          <div>
+          </article>
+          <article>
             <a
               aria-label="Projet"
               href="https://github.com/MelwinC/Piscine"
@@ -159,10 +159,10 @@ const ProjetsC = () => {
                 </div>
               </div>
             </a>
-          </div>
-        </div>
+          </article>
+        </section>
       </section>
-    </div>
+    </main>
   );
 };
 

@@ -1,6 +1,6 @@
 const Footer = () => {
     return (
-        <div className="container mx-auto">
+        <footer className="container mx-auto">
             <div className="pt-20 sm:pt-30 pb-8 mt-32 border-t-2 border-secondary-dark">
                 <div className="flex flex-col justify-center items-center mb-10">
                     <p className="text-3xl sm:text-4xl text-primary-light mb-5">
@@ -38,7 +38,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </footer>
     )
 }
 
