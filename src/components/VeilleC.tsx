@@ -1,6 +1,5 @@
 import CRA from "../assets/CRA.png"
 import Vite from "../assets/Vite.png"
-import CRAvsVite from "../assets/CRAvsVite.png"
 
 const VeilleC = () => {
     return (
@@ -83,17 +82,6 @@ const VeilleC = () => {
                         <figcaption className="w-72 mt-4 h-full text-left"><i>Schéma Vite <br /> (source : <a className="underline" href="https://vitejs.dev/guide/why.html" target="_blank">documentation ViteJS</a>)</i></figcaption>
                     </figure>
                 </div>
-                <p className="text-sm text-center md:text-lg">
-                    Voici une <span className="text-indigo-300">démonstration</span> d'un projet de stage que j'ai <span className="text-indigo-300">migré</span> de Create React App vers ViteJS.
-                    <br />
-                    CRA importe bien plus de modules à l'<span className="text-indigo-300">initialisation</span>.
-                    <br />
-                    Le poids du projet a presque été divisé par <span className="text-indigo-300">10</span>.
-                </p>
-                <figure className="mt-14 mx-auto w-11/12 md:w-1/2">
-                    <img src={CRAvsVite} alt="CRA vs Vite (poids)" className="rounded-xl shadow-md shadow-indigo-400" />
-                    <figcaption className="w-52 mt-4 text-left"><i>CRA vs Vite</i></figcaption>
-                </figure>
             </div>
         </div>
     )
